@@ -13,6 +13,7 @@ Runs Blockscout locally in Docker containers with [docker-compose](https://githu
 ```bash
 cd ./docker-compose
 docker-compose up --build
+docker compose up -d
 ```
 
 **Note**: if you don't need to make backend customizations, you can run `docker-compose up` in order to launch from pre-build backend Docker image. This will be much faster.
